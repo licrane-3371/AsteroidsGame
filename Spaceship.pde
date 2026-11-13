@@ -38,4 +38,8 @@ class Spaceship extends Floater{
       myCenterY = height;    
     }   
   }
+  public void hyper(){
+    myCenterX = (int)(Math.random()*500);
+    myCenterY = (int)(Math.random()*500);
+  }
 }
