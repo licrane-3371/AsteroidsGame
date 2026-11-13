@@ -26,5 +26,7 @@ void keyPressed(){
     you.turn(-30);
   }if(key == 'd'){
     you.turn(30);
+  }if(key == 'h'){
+    you.hyper();
   }
 }
