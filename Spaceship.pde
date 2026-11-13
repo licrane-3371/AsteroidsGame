@@ -13,8 +13,8 @@ class Spaceship extends Floater{
   }
     public void move ()   //move the floater in the current direction of travel
   { 
-    myXspeed *= 0.95;
-    myYspeed *= 0.95;
+    myXspeed *= 0.99;
+    myYspeed *= 0.99;
     //change the x and y coordinates by myXspeed and myYspeed       
     myCenterX += myXspeed;    
     myCenterY += myYspeed;     
