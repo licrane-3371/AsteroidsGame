@@ -1,5 +1,5 @@
 Star[] sbg = new Star[200];
-ArrayList<Asteroid> rocks = new ArrayList<>();
+ArrayList <Asteroid> rocks = new ArrayList <Asteroid> ();
 Spaceship you = new Spaceship();
 //direction smothing variables
 boolean forward = false;
