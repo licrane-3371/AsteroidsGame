@@ -8,11 +8,7 @@ class Spaceship extends Floater{
     myPointDirection = 0;
     myColor = 255;
   }
-  public void setXspeed(double x){
-    myXspeed = x;
-  }
-    public void move ()   //move the floater in the current direction of travel
-  { 
+    public void move (){ 
     myXspeed *= 0.95;
     myYspeed *= 0.95;
     super.move();   
